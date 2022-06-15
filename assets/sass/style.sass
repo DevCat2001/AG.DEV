@@ -1,0 +1,115 @@
+@import _variables.sass
+
+*
+  box-sizing: border-box
+  margin: 0
+  padding: 0
+  border: 0
+  font-family: $font-stack
+  font-size: 16px
+  font-weight: 400
+  line-height: 1.5
+  color: #333
+  background-color: #fff
+  text-rendering: optimizeLegibility
+
+nav
+  display: flex
+  justify-content: space-between
+  align-items: center
+  padding: 0 20px
+  background-color: #fff
+  height: 60px
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1)
+
+  a
+    text-decoration: none
+    color: #000
+    font-size: 18px
+    margin: 15px 40px
+    
+    &:hover
+      color: #00bcd4
+
+  .links
+    display: flex
+    align-items: center
+    justify-content: space-evenly
+
+.hero
+  display: flex
+  flex-flow: column
+  justify-content: center
+  align-items: center
+  margin: 150px
+
+  img
+    width: 350px
+    height: 350px
+    border-radius: 50%
+    margin-bottom: 15px
+    object-fit: cover
+
+.socials
+  display: flex
+  justify-content: space-evenly
+  align-items: center
+  margin: 20px 0
+
+  a img
+    width: 30px
+    height: auto
+
+#contact
+  display: flex
+  flex-flow: column
+  justify-content: center
+  align-items: center
+  margin: 150px
+
+  h1
+    font-size: 30px
+    margin: 20px 0
+
+  form
+    display: flex
+    flex-flow: column
+    justify-content: center
+    align-items: center
+    margin: 20px 0
+
+    input
+      width: 300px
+      height: 40px
+      border: solid 1px #ccc
+      border-radius: 5px
+      margin: 10px 0
+      padding: 0 10px
+
+    textarea
+      width: 300px
+      height: 100px
+      border: solid 1px #ccc
+      border-radius: 5px
+      margin: 10px 0
+      padding: 0 10px
+
+    button
+      width: 300px
+      height: 40px
+      border: solid 1px #ccc
+      border-radius: 5px
+      margin: 10px 0
+      background-color: #00bcd4
+      color: #fff
+      font-size: 18px
+      font-weight: bold
+
+      &:hover
+        background-color: #00acc1
+
+      &:active
+        background-color: #0097a7
+
+      &:focus
+        outline: none
