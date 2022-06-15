@@ -11,7 +11,6 @@
 
 body {
   color: #bbbb04;
-  background: #654363;
   background: radial-gradient(circle, #654363 50%, #3d3048 100%);
 }
 
@@ -76,7 +75,7 @@ section .content p {
   font-size: 20px;
   margin: 0 0 20px;
 }
-section .content a {
+section .content > a {
   text-decoration: none;
   color: #bbbb04;
   font-weight: bold;
@@ -84,7 +83,7 @@ section .content a {
   height: 100%;
   margin: 0 40px;
 }
-section .content a:hover {
+section .content > a:hover {
   text-decoration: underline;
   transition: 270ms ease-in-out;
   cursor: pointer;
@@ -96,17 +95,16 @@ section .content > img {
   border-radius: 50%;
   margin-bottom: 15px;
   object-fit: cover;
-  border: 2px solid radial-gradient(circle, red 50%, green 100%);
   box-shadow: 1px 0px 34px -6px black;
 }
 
 .icon-list {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
 }
-.icon-list a {
-  margin: 0 !important;
+.icon-list > * {
+  margin: 0 15px;
 }
 
 #contact h1 {
