@@ -11,7 +11,7 @@
 
 body {
   color: #bbbb04;
-  background: radial-gradient(circle, #654363 50%, #3d3048 100%);
+  background: radial-gradient(circle, #654363 30%, #3d3048 100%);
 }
 
 nav {
