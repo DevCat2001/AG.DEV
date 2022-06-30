@@ -1,1 +1,1 @@
-sass --no-source-map --watch style.sass .. ..\..\style.css
+sass --no-source-map --watch style.sass ..\..\style.css
